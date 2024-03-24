@@ -1447,6 +1447,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     gap: 25px;
     padding: 30px;
     border-radius: 20px;
+    max-width: 50em;
   }
 
   .modal-img-wrapper {
@@ -1866,6 +1867,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
+
 
 
 
