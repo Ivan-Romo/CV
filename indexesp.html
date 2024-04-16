@@ -7,6 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iván Romo Montil</title>
 
+
+  <script>
+    function loadPage(url){
+      window.location.assign(url);
+    }
+
+  </script>
+
   <!--
     - favicon
   -->
@@ -372,9 +380,9 @@
 
         </section>
 
-        <button onclick="window.location.href = 'indexcat.html';">Ver en catalán</button>
-        <button onclick="window.location.href = 'index.html';">Ir al CV en inglés</button>
-        <button onclick="window.location.href = 'indexesp.html';">Ir al CV en español</button>
+        <button onclick="loadPage('./indexCat.html');">Mira-ho en català</button>
+        <button onclick="loadPage('index.html');">Go to CV in english</button>
+        <button onclick="loadPage('indexesp.html');">Ir a CV en español</button>
 
         
 
