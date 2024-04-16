@@ -139,6 +139,10 @@ button {
   cursor: pointer;
 }
 
+.languages{
+  margin:10em;
+}
+
 input, textarea {
   display: block;
   width: 100%;

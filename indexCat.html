@@ -133,48 +133,19 @@
 
     <div class="main-content">
 
-      <!--
-        - #BARDA
-      -->
-
-      <!-- <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav> -->
-
-
-
-
-
-      <!--
-        - #SOBRE MI
-      -->
-
       <article class="about  active" data-page="about">
-
+        <div style="display: flex; flex-direction: row; justify-content: flex-end;">
+          <div class="info-content" style="margin-left: 1em;" >
+            <button class="title" onclick="loadPage('./indexCat.html');">CAT</button>
+          </div>
+          <div class="info-content" style="margin-left: 1em;">
+            <button class="title" onclick="loadPage('./indexesp.html');">ESP</button>
+          </div>
+          <div class="info-content" style="margin-left: 1em;">
+            <button class="title" onclick="loadPage('./index.html');">ENG</button>
+          </div>
+        </div>
+        <br>
         <header>
           <h2 class="h2 article-title">Sobre mi</h2>
         </header>
@@ -400,14 +371,6 @@
           </ul>
 
         </section>
-
-        <button onclick="loadPage('./indexCat.html');">Mira-ho en català</button>
-        <button onclick="loadPage('index.html');">Go to CV in english</button>
-        <button onclick="loadPage('indexesp.html');">Ir a CV en español</button>
-
-        
-
-
         <!--
           - finestra modal de testimonials
         -->
