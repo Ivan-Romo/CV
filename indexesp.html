@@ -9,41 +9,24 @@
 
 
   <script>
-    function loadPage(url){
+    function loadPage(url) {
       window.location.assign(url);
     }
 
   </script>
 
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - enlace a hoja de estilo personalizada
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - enlace a la fuente de Google
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
 
     <aside class="sidebar" data-sidebar style="min-height: 13.5em;">
 
@@ -103,17 +86,17 @@
           <div class="info-content">
             <a href="/CV/CVEsp.pdf" download="Curriculum_Ivan_Romo.pdf" class="title">Descargar Currículum</a>
           </div>
-        <ul class="social-list">
+          <ul class="social-list">
 
-          
 
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/iv%C3%A1n-romo-montil-692935221/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
 
-        </ul>
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/iv%C3%A1n-romo-montil-692935221/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
 
       </div>
       <br>
@@ -131,11 +114,11 @@
 
     <div class="main-content">
 
-      
+
       <article class="about  active" data-page="about">
 
         <div style="display: flex; flex-direction: row; justify-content: flex-end;">
-          <div class="info-content" style="margin-left: 1em;" >
+          <div class="info-content" style="margin-left: 1em;">
             <button class="title" onclick="loadPage('./indexCat.html');">CAT</button>
           </div>
           <div class="info-content" style="margin-left: 1em;">
@@ -152,49 +135,331 @@
 
         <section class="about-text">
           <p>
-            ¡Hola! Mi nombre es Iván, y soy un programador junior actualmente cursando una licenciatura en Diseño y Desarrollo de Juegos en la Universidad de Girona. Aunque mi enfoque académico está en los videojuegos, tengo una fuerte pasión por los aspectos de programación de backend. A pesar de estar inmerso en estudios de desarrollo de juegos, me encuentro continuamente atraído hacia el mundo más amplio del desarrollo de software.
-          </p>
-
-          <p>
-            Como desarrollador junior, mi objetivo principal es expandir mi conocimiento y experiencia en el campo del desarrollo de software. Estoy interesado en explorar otros aspectos de la programación y la tecnología. Reconozco la importancia de adquirir una comprensión sólida de los fundamentos y las mejores prácticas en el desarrollo de software, y estoy ansioso por sumergirme en el mundo profesional para aprender de profesionales establecidos y contribuir de manera significativa a proyectos desafiantes. Mi compromiso radica en seguir creciendo profesionalmente y contribuir de manera efectiva en cualquier entorno de desarrollo en el que me encuentre.
+            ¡Hola! Mi nombre es Iván, y soy un programador junior actualmente cursando la carrera de Diseño y desarrollo
+            de videojuegos en la Universidad de Girona.
+            Aunque mi enfoque académico está en los videojuegos, mi objetivo a nivel profesional está en la programación
+            de software en general.
           </p>
         </section>
 
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Portafolio</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/ajedrez.png" alt="Daniel lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Proyecto de ajedrez</h4>
 
-        <!--
-          - servicio
-        -->
+                <div class="testimonials-text" data-testimonials-text>
 
-      
+
+                  <p>
+                    Un proyecto para crear una versión digital de ajedrez utilizando Unity y programación en C#.
+                  </p>
+                  <br>
+                  <br>
+
+
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/chessproject/1.jpeg" alt="alternatetext"
+                        style="width: 18em; padding-bottom: 1em;">
+                      <img src="./assets/images/chessproject/2.jpeg" alt="alternatetext"
+                        style="width: 18em;padding-bottom: 1em; ">
+                      <img src="./assets/images/chessproject/3.jpeg" alt="alternatetext" style="width: 18em; ">
+                    </div>
+                    <div style="display: flex; flex-direction: column;padding-left: 1em;">
+                      <p>
+                        En este proyecto me enfoqué en implementar las mecánicas del ajedrez de una manera que fuese
+                        eficiente. El objetivo fue poder tener un ajedrez funcional, pero que también estuviese
+                        preparado para añadir una inteligencia artificial en un futuro. Es por eso, que los cálculos de
+                        posiciones tenían que ser lo más simple posible. Para que, en el momento, de añadir una IA, toda
+                        la potencia se dedicase a aplicar el Minimax, y perdiese el menor tiempo posible con los
+                        cálculos propios del juego. Voy a explicar dos características del código que son bastante
+                        curiosas:
+                      </p>
+                      <br>
+                      <p>
+                        Tuve la idea de implementar el tablero como un vector en vez de una matriz, soy consciente de
+                        que es algo contra intuitivo. Pero de esta manera, podía mover una torre solo sumando o restando
+                        uno(en vertical) o sumando o restando 8 (en vertical). Hay una fotografía donde se detalla como
+                        funciona esto.
+                      </p>
+                      <br>
+                      <p>
+                        Por otro lado, buscando en Internet (esta idea no es mía) vi que en algunos proyectos
+                        implementaban las piezas con ayuda del binario. Empezamos por asignar un valor entero a cada
+                        pieza, por ejemplo, el caballo blanco era el número 11. Y el caballo negro era el 19.
+                      </p>
+                      <br>
+                      <p>
+                        11 en binario es 1011 y 19 es el 10011. Los dos primeros bits del número nos indican el tipo de
+                        pieza, y los siguientes 3 nos indican su color.
+                      </p>
+                      <br>
+                      <p>
+                        En mi código se implementa de una manera muy parecida, y planeo sacarle mucho partido cuando
+                        implemente la IA
+                      </p>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Juego móvil</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Me propuse crear un juego hiper-casual para dispositivos móviles intentado involucarme al máximo en
+                    todos los campos del desarollo.
+                  </p>
+                  <br>
+                  <br>
+
+
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/landinggame/landinggameGP.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameMenu.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameDC.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameS.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+
+                    </div>
+                    <div style="display: flex; flex-direction: column;padding-left: 1em;">
+                      <p>
+                        Este proyecto se empezó con varios objetivos en mente. Hacer un juego que pudiese ser lanzado a
+                        la Play Store, entender y definir un target en concreto, aprender como funcionan las
+                        herramientas para analizar el rendimiento de un juego en la Play Store. Aprender a usar AdMob.
+                      </p>
+                      <br>
+                      <p>
+
+                        El primer objetivo, era el más realista, solo necesitaba poder hacer un juego simple, con cara y
+                        ojos, y por eso me decidí por hacer un juego hipercasual, porque lo que yo buscaba con este
+                        proyecto no era hacer un juego complejo, quería aprender sobre los otros campos que existen a la
+                        hora de sacar un juego
+                      </p>
+                      <br>
+                      <p>
+                        Para el tema del target opté por intentar inspirarme en lo que hacían las empresas
+                        desarrolladoras de juegos hipercasuales, mi referencia fue Ketchapp. Mientras buscaba
+                        información vi que esto del target no era ninguna tontería, cada decisión del proyecto tenía que
+                        estar pensada con eso en mente. Desde las mecánicas, hasta la estética, pasando por el nombre
+                        del juego y la complejidad de la interfaz de este o la cantidad de partículas en pantalla.
+                      </p>
+                      <br>
+                      <p>
+                        Por otro lado, una parte del desarrollo era hacer que el juego fuese intuitivo, hice pruebas con
+                        personas de distintas edades para ver quien respondía mejor. El resultado fue que de media, sin
+                        ningún tipo de indicación, las personas necesitaban alrededor de 6 intentos para entender como
+                        funcionaba el juego (era demasiado) así que logré simplificarlo y dar pistas visuales.
+                      </p>
+                      <br>
+                      <p>
+                        El juego al final se quedó en el tintero, pero, aunque al final no fuese lanzado, aprendí
+                        muchísimo sobre el desarrollo de este.
+                      </p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gestión de cotxes de empresa</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Me propuse crear un juego hiper-casual para dispositivos móviles intentado involucarme al máximo en
+                    todos los campos del desarollo.
+                  </p>
+                  <br>
+                  <br>
+
+
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/landinggame/landinggameGP.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameMenu.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameDC.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameS.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+
+                    </div>
+                    <div style="display: flex; flex-direction: column;padding-left: 1em;">
+                      <p>
+                        Este proyecto se empezó con varios objetivos en mente. Hacer un juego que pudiese ser lanzado a
+                        la Play Store, entender y definir un target en concreto, aprender como funcionan las
+                        herramientas para analizar el rendimiento de un juego en la Play Store. Aprender a usar AdMob.
+                      </p>
+                      <br>
+                      <p>
+
+                        El primer objetivo, era el más realista, solo necesitaba poder hacer un juego simple, con cara y
+                        ojos, y por eso me decidí por hacer un juego hipercasual, porque lo que yo buscaba con este
+                        proyecto no era hacer un juego complejo, quería aprender sobre los otros campos que existen a la
+                        hora de sacar un juego
+                      </p>
+                      <br>
+                      <p>
+                        Para el tema del target opté por intentar inspirarme en lo que hacían las empresas
+                        desarrolladoras de juegos hipercasuales, mi referencia fue Ketchapp. Mientras buscaba
+                        información vi que esto del target no era ninguna tontería, cada decisión del proyecto tenía que
+                        estar pensada con eso en mente. Desde las mecánicas, hasta la estética, pasando por el nombre
+                        del juego y la complejidad de la interfaz de este o la cantidad de partículas en pantalla.
+                      </p>
+                      <br>
+                      <p>
+                        Por otro lado, una parte del desarrollo era hacer que el juego fuese intuitivo, hice pruebas con
+                        personas de distintas edades para ver quien respondía mejor. El resultado fue que de media, sin
+                        ningún tipo de indicación, las personas necesitaban alrededor de 6 intentos para entender como
+                        funcionaba el juego (era demasiado) así que logré simplificarlo y dar pistas visuales.
+                      </p>
+                      <br>
+                      <p>
+                        El juego al final se quedó en el tintero, pero, aunque al final no fuese lanzado, aprendí
+                        muchísimo sobre el desarrollo de este.
+                      </p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Videojuegos desarollados en equipo</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Me propuse crear un juego hiper-casual para dispositivos móviles intentado involucarme al máximo en
+                    todos los campos del desarollo.
+                  </p>
+                  <br>
+                  <br>
+
+
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/landinggame/landinggameGP.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameMenu.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameDC.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameS.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+
+                    </div>
+                    <div style="display: flex; flex-direction: column;padding-left: 1em;">
+                      <p>
+                        Este proyecto se empezó con varios objetivos en mente. Hacer un juego que pudiese ser lanzado a
+                        la Play Store, entender y definir un target en concreto, aprender como funcionan las
+                        herramientas para analizar el rendimiento de un juego en la Play Store. Aprender a usar AdMob.
+                      </p>
+                      <br>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+            
+
+          </ul>
+
+        </section>
+
+
         <section class="timeline">
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="code-slash-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Educación</h3>
+            <h3 class="h3">Habilidades de Desarrollo</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Universitat de Girona</h4>
-
-              <span>2021 — 2025</span>
+              <h4 class="h4 timeline-item-title">C#, C++, C, Java</h4>
 
             </li>
-
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">First Certificate in English - B2</h4>
+              <h4 class="h4 timeline-item-title">HTML, CSS, JS, PHP</h4>
 
             </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MongoDB, SQL Server, Firebase</h4>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jetpack Compose & Kotlin (usando ktor y koin)</h4>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Flutter & Dart</h4>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Unity & Unreal</h4>
+
+            </li>
+
+
+
 
           </ol>
 
         </section>
+
 
         <section class="timeline">
 
@@ -227,7 +492,10 @@
               <span></span>
 
               <p class="timeline-text">
-                Estos trabajos me han proporcionado una experiencia valiosa en interactuar y colaborar con personas diversas, demostrando mi capacidad para adaptarme y relacionarme con nuevas personas a diario.
+                Estos trabajos me han proporcionado una experiencia valiosa en interactuar y colaborar con personas
+                diversas, demostrando mi capacidad para adaptarme y relacionarme con nuevas personas a diario.
+
+
               </p>
 
             </li>
@@ -241,148 +509,49 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="code-slash-outline"></ion-icon>
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Habilidades de Desarrollo</h3>
+            <h3 class="h3">Educación</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">C#, C++, C, Java</h4>
+              <h4 class="h4 timeline-item-title">Universitat de Girona</h4>
+
+              <span>2021 — 2025</span>
 
             </li>
+
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">HTML, CSS, JS, PHP</h4>
+              <h4 class="h4 timeline-item-title">First Certificate in English - B2</h4>
 
             </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">MongoDB, SQL Server, Firebase</h4>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Flutter & Dart</h4>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Unity & Unreal</h4>
-
-            </li>
-
-      
-
 
           </ol>
 
         </section>
-
-
-        <!--
-          - testimonios
-        -->
-
-        <section class="testimonials">
-          <h3 class="h3 testimonials-title">Portafolio</h3>
-          <ul class="testimonials-list has-scrollbar">
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img style="width: 4em;" src="./assets/images/ajedrez.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Proyecto de Ajedrez</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Un proyecto para crear una versión digital de ajedrez utilizando Unity y programación en C#. El objetivo principal era recrear fielmente la experiencia del ajedrez clásico mientras se exploraban nuevas técnicas de implementación que podrían mejorar la eficiencia y comprensión del código.
-                  </p>
-                  <br>
-                  <p>
-                    Una de las decisiones técnicas clave que tomé fue adoptar una representación del tablero basada en vectores en lugar de utilizar una matriz convencional. Esto implicaba almacenar las posiciones de las piezas en un solo vector, asignando a cada casilla del tablero un índice único. Esta estrategia simplificó significativamente la lógica del juego y facilitó la implementación de reglas, al tiempo que proporcionaba una base sólida para futuras mejoras.
-                  </p>
-                  <br>
-                  <p>
-                    El proyecto incluyó características estándar como el modo multijugador local para dos jugadores y un modo para un jugador contra una inteligencia artificial básica. Aunque la IA no alcanzó un nivel avanzado, proporcionó una experiencia jugable para practicar y mejorar habilidades.
-                  </p>
-                  
-
-
-                </div>
-                
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Juego Móvil</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                  Me propuse crear un juego hiper-casual para dispositivos móviles. Este proyecto no se limitó a la programación y diseño; fue una experiencia de aprendizaje integral que incluyó análisis de mercado, adaptación de mecánicas y estrategia de marketing.
-                  </p>
-                  <br>
-                  <p>
-                  La mecánica central del juego permaneció deliberadamente simple, alineándose con la preferencia del género hiper-casual por una jugabilidad fácil de entender. Sin embargo, donde realmente enfoqué mis esfuerzos fue en comprender el panorama competitivo. Analicé juegos existentes y exitosos en el mercado.
-                  </p>
-                  <br>
-                  <p>
-                  A través de este proceso, aprendí a adaptar mecánicas y estéticas para satisfacer las preferencias de mi público objetivo. Esto implicó no solo implementar una jugabilidad atractiva, sino también asegurar que el estilo visual y la experiencia del usuario fueran atractivos y accesibles.
-                  </p>
-                  <br>
-                  <p>
-                  Además, me sumergí en el mundo de la estrategia de marketing desde las primeras etapas de desarrollo. Elaboré un plan detallado que describía cómo promocionar el juego de manera efectiva, considerando aspectos como la adquisición de usuarios, la retención y la monetización. Esto implicó investigar y comprender plataformas como Play Store, aprender a publicar aplicaciones e integrar AdMob para publicidad dentro del juego.
-                  </p>
-                  
-                </div>
-              
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
         <div class="modal-container" data-modal-container>
-
           <div class="overlay" data-overlay></div>
-
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
 
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
 
-            </div>
+            <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img style="display: none;">
+
 
             <div class="modal-content">
-
               <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 de junio de 2021</time>
-
               <div data-modal-text>
-                <p>
-                  Richard fue contratado para crear una identidad corporativa. Quedamos muy satisfechos con el trabajo realizado. Tiene mucha experiencia y se preocupa mucho por las necesidades del cliente. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <!-- Tu contenido aquí -->
               </div>
             </div>
-
           </section>
-
         </div>
 
       </article>
@@ -408,7 +577,7 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
-  
+
 </body>
 
 </html>
