@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -7,40 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iván Romo Montil</title>
 
+
   <script>
-    function loadPage(url){
+    function loadPage(url) {
       window.location.assign(url);
     }
 
   </script>
 
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
   <main>
+
+
     <aside class="sidebar" data-sidebar style="min-height: 13.5em;">
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img style="width: 11em; " src="./assets/images/my-avatar.png" alt="Richard hanrick" width="0">
+          <img style="width: 11em; " src="./assets/images/my-avatar.png" alt="Richard Hanrick" width="0">
         </figure>
 
         <div class="info-content">
@@ -58,9 +51,7 @@
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
-
         <ul class="contacts-list">
 
           <li class="contact-item">
@@ -93,30 +84,34 @@
 
 
           <div class="info-content">
-            <a href= "/CV/CVenglish.pdf" download="Resume_Iván_Romo.pdf" class="title">Download Resume</a>
+            <a href="/CV/CVenglish.pdf" download="Curriculum_Ivan_Romo.pdf" class="title">Download Resume</a>
           </div>
-        <ul class="social-list">
+          <ul class="social-list">
 
-          
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/iv%C3%A1n-romo-montil-692935221/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/iv%C3%A1n-romo-montil-692935221/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
+          </ul>
 
       </div>
       <br>
 
-
     </aside>
+
+    <!--
+      - #main-content
+    -->
+
     <div class="main-content">
 
+
       <article class="about  active" data-page="about">
+
         <div style="display: flex; flex-direction: row; justify-content: flex-end;">
-          <div class="info-content" style="margin-left: 1em;" >
+          <div class="info-content" style="margin-left: 1em;">
             <button class="title" onclick="loadPage('./indexCat.html');">CAT</button>
           </div>
           <div class="info-content" style="margin-left: 1em;">
@@ -127,279 +122,432 @@
           </div>
         </div>
         <br>
-
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
         <section class="about-text">
           <p>
-            Hello! My name is Iván, and I'm a junior programmer currently pursuing a degree in 
-            Game Design and Development at the University of Girona. While my academic focus is on 
-            video games, I have a strong passion for the back-end aspects of programming. Despite being immersed
-            in game development studies, I find myself continually drawn towards the broader world of software
-            development.
-          </p>
-
-          <p>
-            As a junior developer, my primary goal is to expand my knowledge and experience in the field of 
-            software development.I am interested in exploring other aspects of programming and technology. I recognize 
-            the importance of 
-             acquiring a solid understanding of the fundamentals and best practices in software development, and
-              I am eager to immerse myself in the professional world to learn from established professionals and 
-              contribute meaningfully to challenging projects. My commitment lies in continuing to grow professionally
-               and effectively contribute in any development environment I find myself in.
+            Hello! My name is Iván, and I am a junior programmer currently studying Game Design and Development at the
+            University of Girona.
+            Although my academic focus is on video games, my professional goal is in general software programming.
           </p>
         </section>
 
-
-        <!--
-          - service
-        -->
-
-      
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Universitat de Girona</h4>
-
-              <span>2021 — 2025</span>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">First Certificate in English - B2</h4>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="laptop-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">TEG</h4>
-
-              <span>2023</span>
-
-              <p class="timeline-text">
-                Junior Programmer working on frontend and backend.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Various summer jobs</h4>
-
-              <span></span>
-
-              <p class="timeline-text">
-                These jobs have provided me with valuable experience in interacting and collaborating 
-                with diverse individuals, showcasing my ability to adapt and engage with new people on 
-                a daily basis.
-              </p>
-
-            </li>
-
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="code-slash-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Development skills</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">C#, C++, C, Java</h4>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">HTML, CSS, JS, PHP</h4>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">MongoDB, SQL Server, Firebase</h4>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Flutter & Dart</h4>
-
-            </li>
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Unity & Unreal</h4>
-
-            </li>
-
-      
-
-
-          </ol>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
 
         <section class="testimonials">
           <h3 class="h3 testimonials-title">Portfolio</h3>
           <ul class="testimonials-list has-scrollbar">
+
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
                 <figure class="testimonials-avatar-box">
-                  <img style="width: 4em;" src="./assets/images/ajedrez.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img style="width: 4em;" src="./assets/images/carIcon.png" alt="Daniel Lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Company Car Management</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A car management system developed with Blazor, .NET, and MongoDB
+                  </p>
+                  <br>
+                  <br>
+
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/cotxes/cotxes1.png" alt="alternatetext"
+                        style="width: 20em; padding-bottom: 1em;">
+                      <img src="./assets/images/cotxes/cotxes2.png" alt="alternatetext"
+                        style="width: 20em; padding-bottom: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        During my time at TEG, I had the opportunity to work on both the front-end and back-end of a car
+                        management system.
+                      </p>
+                      <br>
+                      <p>
+                        Users could reserve available cars. Once reserved, they were given a code to access the car's
+                        key.
+                      </p>
+                      <br>
+                      <p>
+                        The front-end of the page is developed with Blazor (and a bit of JavaScript where Blazor does
+                        not reach). It was a great challenge because Blazor was a very new technology, and although
+                        well-documented, it was clear that the community behind it was still quite new.
+                      </p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/ajedrez.png" alt="Daniel Lewis" width="60"
+                    data-testimonials-avatar>
                 </figure>
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Chess Project</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    A project to create a digital version of chess using Unity and coding in C#. 
-                    The main objective was to faithfully recreate the experience of classic chess while exploring new implementation techniques that could
-                    enhance code efficiency and comprehension.
+                    A project to create a digital version of chess using Unity and C# programming.
                   </p>
                   <br>
-                  <p>
-                    One of the key technical decisions I made was to adopt a vector-based board representation instead of using a conventional matrix. 
-                    This involved storing piece positions in a single vector, assigning each square on the board a unique index. This strategy 
-                    significantly simplified game logic and facilitated rule implementation, while providing a solid foundation for future enhancements.
-                  </p>
                   <br>
-                  <p>
-                    The project encompassed standard features such as local multiplayer mode for two players and a single-player mode against a basic 
-                    artificial intelligence. Although the AI did not reach an advanced level, it provided a playable experience for practicing and
-                     improving skills.
 
-                  </p>
-                  
-
-
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/chessproject/1.jpeg" alt="alternatetext"
+                        style="width: 18em; padding-bottom: 1em;">
+                      <img src="./assets/images/chessproject/2.jpeg" alt="alternatetext"
+                        style="width: 18em; padding-bottom: 1em;">
+                      <img src="./assets/images/chessproject/3.jpeg" alt="alternatetext" style="width: 18em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        In this project, I focused on implementing chess mechanics efficiently. The goal was to have a
+                        functional chess game that could later be enhanced with artificial intelligence. Therefore,
+                        position calculations needed to be as simple as possible, so that when adding an AI, the system
+                        could dedicate more power to applying the Minimax algorithm and spend less time on game
+                        calculations. Here are two interesting features of the code:
+                      </p>
+                      <br>
+                      <p>
+                        I had the idea of implementing the board as a vector instead of a matrix. I am aware this is
+                        somewhat counterintuitive, but this way, I could move a rook by simply adding or subtracting one
+                        (vertically) or adding or subtracting 8 (horizontally). There is a photo explaining how this
+                        works.
+                      </p>
+                      <br>
+                      <p>
+                        Additionally, I found that some projects used binary values for pieces. We started by assigning
+                        an integer value to each piece; for example, the white knight was 11, and the black knight was
+                        19.
+                      </p>
+                      <br>
+                      <p>
+                        11 in binary is 1011 and 19 is 10011. The first two bits of the number indicate the piece type,
+                        and the next three indicate its color.
+                      </p>
+                      <br>
+                      <p>
+                        My code implements a similar approach, and I plan to leverage this further when implementing the
+                        AI.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                
+              </div>
+            </li>
 
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/face-detection.png" alt="Daniel Lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Face Detection Web App</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A face detection web app using three Azure services
+                  </p>
+                  <br>
+                  <br>
+
+                  <div style="display: flex; flex-direction: column-reverse;">
+                    <div style="display: flex; flex-direction: row;">
+                      <img src="./assets/images/facefinder.png" alt="alternatetext"
+                        style="width: 22em; padding-left: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        Together with a colleague, we developed a web page where you can upload image URLs, and it
+                        returns an image with all detected faces from that URL. This project arose from seeing that
+                        Azure provided us with student licenses, so we aimed to create a project using the tools it
+                        offered.
+                      </p>
+                      <br>
+                      <p>
+                        We acknowledge that the UI of the page leaves something to be desired, but our real goal was to
+                        be able to use and connect three Azure services together.
+                      </p>
+                      <br>
+                      <p>
+                        We used Static Web App for the website, Azure Cosmos DB to store user URLs, and the Azure Face
+                        API for face detection.
+                      </p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
               </div>
             </li>
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
                 <figure class="testimonials-avatar-box">
-                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img style="width: 4em;" src="./assets/images/shopping-cart.png" alt="Daniel Lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shopping List App</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A shopping list app developed with Flutter, Dart, and Firebase
+                  </p>
+                  <br>
+                  <br>
+
+                  <div style="display: flex; flex-direction: column-reverse;">
+                    <div style="display: flex; flex-direction: row;">
+                      <img src="./assets/images/shopList/shopMenu.jpg" alt="alternatetext"
+                        style="width: 14em; padding-left: 1em;">
+                      <img src="./assets/images/shopList/shopList.jpg" alt="alternatetext"
+                        style="width: 14em; padding-left: 1em;">
+                      <img src="./assets/images/shopList/shopList.jpg" alt="alternatetext"
+                        style="width: 14em; padding-left: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        I developed this app with the goal of learning Flutter. My initial intention was to use a MySQL
+                        database, but as I researched, I found there was a lot of compatibility between Flutter and
+                        Firebase. Since both technologies were new to me, I decided to try Firebase.
+                      </p>
+                      <br>
+                      <p>
+                        The app allows each user to have two completely personal lists. One is for commonly purchased
+                        items, and the other is for the actual shopping list. Thus, a user who wants to quickly create a
+                        shopping list can view all the items they usually buy and add them to the shopping list.
+                      </p>
+                      <br>
+                      <p>
+                        All user data is stored in the cloud. The app does not store any data locally.
+                      </p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel Lewis" width="60"
+                    data-testimonials-avatar>
                 </figure>
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Mobile Game</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                  I set out to create a hyper-casual game for mobile devices. This project wasn't limited to programming and design; it was a comprehensive
-                   learning experience that included market analysis, mechanics adaptation, and marketing strategy.
+                    I set out to create a hyper-casual mobile game, involving myself as much as possible in all aspects
+                    of development.
                   </p>
                   <br>
-                  <p>
-                  The game's core mechanic remained deliberately simple, aligning with the hyper-casual genre's preference for easy-to-understand gameplay.
-                   However, where I truly focused my efforts was in understanding the competitive landscape. I analyzed existing  and successful games in the market. 
-                  </p>
                   <br>
-                  <p>
-                  Through this process, I learned to adapt mechanics and aesthetics to suit the preferences of my target audience. This involved not only 
-                  implementing engaging gameplay but also ensuring that the visual style and user experience were appealing and accessible.
-                  </p>
-                  <br>
-                  <p>
-                  Furthermore, I delved into the realm of marketing strategy from the early stages of development. I crafted a detailed plan outlining how
-                   to promote the game effectively, considering aspects such as user acquisition, retention, and monetization. This involved researching
-                  and understanding platforms like the Play Store, learning how to publish applications, and integrating AdMob for in-game advertisements.
-                  </p>
-                  
+
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/landinggame/landinggameGP.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameMenu.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameDC.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameS.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        This project started with several goals in mind: creating a game that could be launched on the
+                        Play Store, understanding and defining a specific target audience, learning how to use tools to
+                        analyze game performance on the Play Store, and learning to use AdMob.
+                      </p>
+                      <br>
+                      <p>
+                        The first goal was the most realistic; I just needed to create a simple, coherent game.
+                        Therefore, I chose to make a hyper-casual game because what I wanted from this project was not
+                        to create a complex game but to learn about other aspects involved in game development.
+                      </p>
+                      <br>
+                      <p>
+                        For targeting, I decided to get inspired by what hyper-casual game developers do, using Ketchapp
+                        as a reference. As I researched, I realized that targeting was crucial; every project decision
+                        had to be made with this in mind—from mechanics and aesthetics to the game name and interface
+                        complexity or the number of on-screen particles.
+                      </p>
+                      <br>
+                      <p>
+                        Additionally, part of the development involved making the game intuitive. I conducted tests with
+                        people of various ages to see who responded best. The result was that, on average, without any
+                        indication, people needed about six attempts to understand how the game worked (which was too
+                        much), so I simplified it and provided visual cues.
+                      </p>
+                      <br>
+                      <p>
+                        The game ultimately remained unfinished, but even though it wasn’t launched, I learned a great
+                        deal about game development.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              
+              </div>
+            </li>
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/console2.png" alt="Daniel Lewis" width="40"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Team-developed Video Games</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    With a group of six people, we developed two video games using Unity and Unreal
+                  </p>
+                  <br>
+                  <br>
+
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/unityUnreal/echoes1.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/unityUnreal/echoes2.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/unityUnreal/asphalt1.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/unityUnreal/asphalt2.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        In the Unity project, I was responsible for the behavior and response of different types of
+                        enemies. Additionally, I organized and led the project, learned some agile methodologies, and
+                        ultimately chose to use SCRUM. I discovered a strong passion for project management. We also had
+                        to learn to use GIT.
+                      </p>
+                      <br>
+                      <p>
+                        Echoes of Extinction (Unity): <a href="https://polichester.itch.io/echoes-of-extintion"
+                          target="_blank">polichester.itch.io/echoes-of-extintion</a>
+                      </p>
+                      <br>
+                      <p>
+                        In the Unreal project, we decided to create a car game. Each team member designed a level, and
+                        mine has a more futuristic style.
+                      </p>
+                      <br>
+                      <p>
+                        Asphalt Fury (Unreal): <a href="https://ikelosdev.itch.io/asphalt-fury"
+                          target="_blank">ikelosdev.itch.io/asphalt-fury</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </li>
 
           </ul>
 
         </section>
-        
 
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Development Skills</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">C#, C++, C, Java</h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">HTML, CSS, JS, PHP, Blazor</h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">MongoDB, SQL Server, Firebase</h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Jetpack Compose & Kotlin (using ktor and koin)</h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Flutter & Dart</h4>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Unity & Unreal</h4>
+            </li>
+          </ol>
+        </section>
 
-        <!--
-          - testimonials modal
-        -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="laptop-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">TEG</h4>
+              <span>2023/2024</span>
+              <p class="timeline-text">
+                Junior Programmer working on frontend and backend.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Various Summer Jobs</h4>
+              <span></span>
+              <p class="timeline-text">
+                These jobs provided valuable experience interacting and collaborating with diverse people, demonstrating
+                my ability to adapt and relate to new people daily.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universitat de Girona</h4>
+              <span>2021 — 2025</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">First Certificate in English - B2</h4>
+            </li>
+          </ol>
+        </section>
 
         <div class="modal-container" data-modal-container>
-
           <div class="overlay" data-overlay></div>
-
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
 
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-            </div>
+            <img src="./assets/images/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img style="display: none;">
 
             <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
+              <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
               <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  
-                </p>
+                <!-- Your content here -->
               </div>
             </div>
-
           </section>
-
         </div>
 
       </article>
@@ -408,24 +556,13 @@
 
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
+  <!-- Link to custom script -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+  <!-- Link to Ionicons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-
-  
 </body>
 
 </html>

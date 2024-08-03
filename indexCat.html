@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -8,134 +8,116 @@
   <title>Iván Romo Montil</title>
 
 
-
   <script>
-    function loadPage(url){
+    function loadPage(url) {
       window.location.assign(url);
     }
 
   </script>
-  <!--
-    - favicon
-  -->
+
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - enllaç personalitzat a css
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - enllaç a la font de Google
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <!--
-    - #PRINCIPAL
-  -->
-
   <main>
 
-    <!--
-      - #BARDA
-    -->
 
     <aside class="sidebar" data-sidebar style="min-height: 13.5em;">
 
       <div class="sidebar-info">
-
+    
         <figure class="avatar-box">
-          <img style="width: 11em; " src="./assets/images/my-avatar.png" alt="Richard hanrick" width="0">
+          <img style="width: 11em;" src="./assets/images/my-avatar.png" alt="Richard hanrick" width="0">
         </figure>
-
+    
         <div class="info-content">
           <h1 class="name" title="Iván Romo">Iván Romo Montil</h1>
-
-          <p class="title">Desenvolupador Júnior</p>
+    
+          <p class="title">Desenvolupador Junior</p>
         </div>
-
+    
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Mostra els contactes</span>
-
+          <span>Mostrar Contactes</span>
+    
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
+    
       </div>
-
+    
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
-
         <ul class="contacts-list">
-
+    
           <li class="contact-item">
-
+    
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
+    
             <div class="contact-info">
-              <p class="contact-title">Correu electrònic</p>
-
+              <p class="contact-title">Correu Electrònic</p>
+    
               <a href="mailto:ivanromontil@gmail.com" class="contact-link">ivanromontil@gmail.com</a>
             </div>
-
+    
           </li>
-
+    
           <li class="contact-item">
-
+    
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
+    
             <div class="contact-info">
               <p class="contact-title">Telèfon</p>
-
+    
               <a href="tel:+12133522795" class="contact-link">649 519 809</a>
             </div>
-
+    
           </li>
-
-
-          <div class="info-content">
-            <a href= "/CV/CVCat.pdf" download="Curriculum_Ivan_Romo.pdf" class="title">Descarrega el currículum</a>
-          </div>
+    
+        </ul>
+    
+        <div class="info-content">
+          <a href="/CV/CVCat.pdf" download="Curriculum_Ivan_Romo.pdf" class="title">Descarregar Currículum</a>
+        </div>
         <ul class="social-list">
-
-          
-
+    
           <li class="social-item">
             <a href="https://www.linkedin.com/in/iv%C3%A1n-romo-montil-692935221/" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
-
+    
         </ul>
-
+    
       </div>
       <br>
-
-
+    
     </aside>
+    
 
 
 
 
 
     <!--
-      - #contingut-principal
+      - #main-content
     -->
 
     <div class="main-content">
 
+
       <article class="about  active" data-page="about">
+
         <div style="display: flex; flex-direction: row; justify-content: flex-end;">
-          <div class="info-content" style="margin-left: 1em;" >
+          <div class="info-content" style="margin-left: 1em;">
             <button class="title" onclick="loadPage('./indexCat.html');">CAT</button>
           </div>
           <div class="info-content" style="margin-left: 1em;">
@@ -147,102 +129,320 @@
         </div>
         <br>
         <header>
-          <h2 class="h2 article-title">Sobre mi</h2>
+          <h2 class="h2 article-title">Acerca de mí</h2>
         </header>
 
         <section class="about-text">
           <p>
-            Hola! Em dic Iván i sóc un programador júnior actualment cursant un grau en Disseny i Desenvolupament de Jocs a la Universitat de Girona.
-            Tot i que el meu enfocament acadèmic és en els videojocs, tinc una gran passió pels aspectes de programació en el backend. Malgrat estar immers
-            en els estudis de desenvolupament de jocs, em trobo constantment atret cap al món més ampli del desenvolupament de programari.
-          </p>
-
-          <p>
-            Com a desenvolupador júnior, el meu objectiu principal és ampliar el meu coneixement i experiència en el camp del desenvolupament de programari.
-            Estic interessat en explorar altres aspectes de la programació i la tecnologia. Reconec la importància d'adquirir una comprensió sòlida dels fonaments
-            i les millors pràctiques en el desenvolupament de programari, i estic desitjós d'immersir-me en el món professional per aprendre dels professionals
-            establerts i contribuir de manera significativa a projectes desafiants. El meu compromís rau en continuar creixent professionalment i contribuir
-            de manera efectiva en qualsevol entorn de desenvolupament en què em trobi.
+            Hola! El meu nom és Iván, i sóc un programador junior actualment cursant la carrera de Disseny i desenvolupament 
+            de videojocs a la Universitat de Girona.
+            Tot i que el meu enfocament acadèmic està en els videojocs, el meu objectiu a nivell professional està en la programació 
+            de software en general.
           </p>
         </section>
 
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Portafolio</h3>
+          <ul class="testimonials-list has-scrollbar">
 
-        <!--
-          - servei
-        -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/carIcon.png" alt="Daniel lewis" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gestión de cotxes de empresa</h4>
 
-      
-        <section class="timeline">
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Un sistema de gestió de cotxes desenvolupat amb Blazor, .NET i MongoDB
+                  </p>istema de gestión de cotxes desarollado con Blazor, .NET y MongoDB
+                  </p>
+                  <br>
+                  <br>
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
 
-            <h3 class="h3">Educació</h3>
-          </div>
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/cotxes/cotxes1.png" alt="alternatetext"
+                        style="width: 20em; padding-bottom: 1em;">
+                      <img src="./assets/images/cotxes/cotxes2.png" alt="alternatetext"
+                        style="width: 20em; padding-bottom: 1em;">
 
-          <ol class="timeline-list">
+                    </div>
+                    <div style="display: flex; flex-direction: column;padding-left: 1em;">
+                      <p>
+                        Durant la meva estada a TEG vaig tenir l'oportunitat de treballar en el front-end i el back-end d'un
+                        sistema de gestió de cotxes.
+                      </p>
+                      <br>
+                      <p>
+                        Els usuaris podien reservar els cotxes disponibles. Un cop reservat se'ls donava un codi amb el qual 
+                        podien accedir a la clau del cotxe.
+                      </p>
+                      <br>
+                      <p>
+                        El front-end de la pàgina està desenvolupat amb Blazor (i una mica de JavaScript, en els llocs on 
+                        Blazor no arriba). Va ser un gran repte, perquè Blazor era una tecnologia molt nova i, malgrat estar 
+                        ben documentada, sí que es notava que la comunitat que hi havia darrere era molt nova.
+                      </p>
+                      <br>
+                    </div>
 
-            <li class="timeline-item">
+                  </div>
 
-              <h4 class="h4 timeline-item-title">Universitat de Girona</h4>
+                </div>
 
-              <span>2021 — 2025</span>
-
+              </div>
             </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">First Certificate in English - B2</h4>
-
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/ajedrez.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Projecte d'escacs</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Un projecte per crear una versió digital d'escacs utilitzant Unity i programació en C#.
+                  </p>
+                  <br>
+                  <br>
+            
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/chessproject/1.jpeg" alt="alternatetext"
+                        style="width: 18em; padding-bottom: 1em;">
+                      <img src="./assets/images/chessproject/2.jpeg" alt="alternatetext"
+                        style="width: 18em; padding-bottom: 1em;">
+                      <img src="./assets/images/chessproject/3.jpeg" alt="alternatetext" style="width: 18em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        En aquest projecte em vaig centrar a implementar les mecàniques dels escacs d'una manera que fos eficient.
+                        L'objectiu va ser poder tenir uns escacs funcionals, però que també estiguessin preparats per afegir una
+                        intel·ligència artificial en un futur. És per això que els càlculs de posicions havien de ser el més simples
+                        possible. Així, en el moment d'afegir una IA, tota la potència es dedicaria a aplicar el Minimax i es
+                        perdria el menor temps possible amb els càlculs propis del joc. Explicaré dues característiques del codi que
+                        són bastant curioses:
+                      </p>
+                      <br>
+                      <p>
+                        Vaig tenir la idea d'implementar el tauler com un vector en comptes d'una matriu, sóc conscient que és
+                        quelcom contraintuïtiu. Però d'aquesta manera, podia moure una torre només sumant o restant un (en horitzontal)
+                        o sumant o restant 8 (en vertical). Hi ha una fotografia on es detalla com funciona això.
+                      </p>
+                      <br>
+                      <p>
+                        D'altra banda, cercant a Internet (aquesta idea no és meva) vaig veure que en alguns projectes implementaven
+                        les peces amb ajuda del binari. Comencem assignant un valor enter a cada peça, per exemple, el cavall blanc
+                        era el número 11. I el cavall negre era el 19.
+                      </p>
+                      <br>
+                      <p>
+                        11 en binari és 1011 i 19 és 10011. Els dos primers bits del número ens indiquen el tipus de peça, i els següents
+                        3 ens indiquen el seu color.
+                      </p>
+                      <br>
+                      <p>
+                        En el meu codi s'implementa d'una manera molt semblant, i planejo treure-li molt de partit quan implementi la IA.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
+            
 
-          </ol>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/face-detection.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Web de detecció de cares</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Una web de detecció de cares en imatges utilitzant tres serveis d'Azure.
+                  </p>
+                  <br>
+                  <br>
+            
+                  <div style="display: flex; flex-direction: column-reverse;">
+                    <div style="display: flex; flex-direction: row;">
+                      <img src="./assets/images/facefinder.png" alt="alternatetext"
+                        style="width: 22em; padding-left: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        Junts amb un company vam desenvolupar una pàgina web en la qual pots pujar URL de fotografies i aquesta et retorna una imatge amb totes les cares d'aquesta imatge detectades. Aquest projecte va sorgir en veure que Azure ens donava llicència d'estudiants, així que vam intentar fer un projecte utilitzant les eines que ens proporcionava.
+                      </p>
+                      <br>
+                      <p>
+                        Sabem que la UI de la pàgina deixa una mica a desitjar, però el nostre objectiu real era ser capaços d'utilitzar i connectar 3 serveis d'Azure entre si.
+                      </p>
+                      <br>
+                      <p>
+                        Vam utilitzar Static Web App per a la pàgina web, Azure Cosmos DB per guardar les URL dels usuaris i la Azure Face API per a la detecció de cares.
+                      </p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/shopping-cart.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aplicació de llista de la compra</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Una aplicació de llista de la compra desenvolupada amb Flutter, Dart i Firebase.
+                  </p>
+                  <br>
+                  <br>
+            
+                  <div style="display: flex; flex-direction: column-reverse;">
+                    <div style="display: flex; flex-direction: row;">
+                      <img src="./assets/images/shopList/shopMenu.jpg" alt="alternatetext"
+                        style="width: 14em; padding-left: 1em;">
+                      <img src="./assets/images/shopList/shopList.jpg" alt="alternatetext"
+                        style="width: 14em; padding-left: 1em;">
+                      <img src="./assets/images/shopList/shopList.jpg" alt="alternatetext"
+                        style="width: 14em; padding-left: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        Vaig desenvolupar aquesta aplicació amb l'objectiu d'aprendre Flutter. La meva intenció principal era tenir una base de dades en MySQL, però a mesura que investigava vaig veure que hi havia molta compatibilitat entre Flutter i Firebase, i al ser ambdues tecnologies noves per a mi, vaig voler provar amb Firebase.
+                      </p>
+                      <br>
+                      <p>
+                        L'aplicació permet que cada usuari tingui dues llistes completament personals. Una és la llista d'aliments que sol comprar. L'altra és la llista de la compra en si. Així, un usuari que vulgui crear ràpidament una llista de la compra podrà veure tots els productes que sol comprar i afegir-los a la llista de la compra.
+                      </p>
+                      <br>
+                      <p>
+                        Tots les dades dels usuaris estan guardades al núvol. L'aplicació no guarda cap dada en local.
+                      </p>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Joc mòbil</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Em vaig proposar crear un joc hiper-casual per a dispositius mòbils intentant involucrar-me al màxim en
+                    tots els camps del desenvolupament.
+                  </p>
+                  <br>
+                  <br>
+            
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/landinggame/landinggameGP.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameMenu.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameDC.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/landinggame/landinggameS.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        Aquest projecte es va començar amb diversos objectius en ment. Fer un joc que pogués ser llançat a
+                        la Play Store, entendre i definir un target concret, aprendre com funcionen les eines per analitzar el
+                        rendiment d'un joc a la Play Store. Aprendre a usar AdMob.
+                      </p>
+                      <br>
+                      <p>
+                        L'objectiu principal era el més realista, només necessitava poder fer un joc simple, amb cara i ulls, i per això em vaig decidir per fer un joc hiper-casual, perquè el que buscava amb aquest projecte no era fer un joc complex, volia aprendre sobre els altres camps que existeixen a l'hora de llançar un joc.
+                      </p>
+                      <br>
+                      <p>
+                        Per al tema del target vaig optar per intentar inspirar-me en el que feien les empreses desenvolupadores de jocs hiper-casuals, la meva referència va ser Ketchapp. Mentre buscava informació vaig veure que això del target no era cap tonteria, cada decisió del projecte havia de ser pensada amb això en ment. Des de les mecàniques fins a l'estètica, passant pel nom del joc i la complexitat de la interfície d'aquest o la quantitat de partícules a pantalla.
+                      </p>
+                      <br>
+                      <p>
+                        D'altra banda, una part del desenvolupament era fer que el joc fos intuitiu, vaig fer proves amb persones de diferents edats per veure qui responia millor. El resultat va ser que de mitjana, sense cap tipus d'indicació, les persones necessitaven al voltant de 6 intents per entendre com funcionava el joc (era massa) així que vaig aconseguir simplificar-lo i donar pistes visuals.
+                      </p>
+                      <br>
+                      <p>
+                        El joc al final va quedar en l'aire, però, tot i que al final no es va llançar, vaig aprendre moltíssim sobre el desenvolupament d'aquest.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img style="width: 4em;" src="./assets/images/console2.png" alt="Daniel lewis" width="40" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Videojocs desenvolupats en equip</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Amb un grup de sis persones vam desenvolupar dos videojocs utilitzant Unity i Unreal.
+                  </p>
+                  <br>
+                  <br>
+            
+                  <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: column;">
+                      <img src="./assets/images/unityUnreal/echoes1.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/unityUnreal/echoes2.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/unityUnreal/asphalt1.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                      <img src="./assets/images/unityUnreal/asphalt2.jpg" alt="alternatetext"
+                        style="width: 11em; padding-bottom: 1em;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; padding-left: 1em;">
+                      <p>
+                        En el projecte de Unity, em vaig encarregar del comportament i resposta dels diferents tipus d'enemics. D'altra banda, vaig ser l'encarregat d'organitzar i dirigir el projecte, vaig poder aprendre algunes metodologies àgils, i al final em vaig decantar per l'ús de SCRUM i vaig veure el molt que em fascinava gestionar projectes. També vam haver d'aprendre a usar GIT.
+                      </p>
+                      <br>
+                      <p>
+                        Echoes of Extinction (Unity): <a href="https://polichester.itch.io/echoes-of-extintion" target="_blank">polichester.itch.io/echoes-of-extintion</a>
+                      </p>
+                      <br>
+                      <p>
+                        En el projecte d'Unreal, vam decidir fer un joc de cotxes. Allí, cada un dels integrants va fer un nivell. El meu és el que té un estil més futurista.
+                      </p>
+                      <br>
+                      <p>
+                        Asphalt Fury (Unreal): <a href="https://ikelosdev.itch.io/asphalt-fury" target="_blank">ikelosdev.itch.io/asphalt-fury</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+
+
+          </ul>
 
         </section>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="laptop-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experiència</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">TEG</h4>
-
-              <span>2023</span>
-
-              <p class="timeline-text">
-                Programador júnior treballant en el frontend i backend.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Diversos treballs d'estiu</h4>
-
-              <span></span>
-
-              <p class="timeline-text">
-                Aquests treballs m'han proporcionat una experiència valuosa en interactuar i col·laborar amb persones diverses,
-                demostrant la meva capacitat per adaptar-me i relacionar-me amb noves persones de manera diària.
-              </p>
-
-            </li>
-
-
-          </ol>
-
-        </section>
 
         <section class="timeline">
 
@@ -250,166 +450,135 @@
             <div class="icon-box">
               <ion-icon name="code-slash-outline"></ion-icon>
             </div>
-
-            <h3 class="h3">Habilitats de desenvolupament</h3>
+        
+            <h3 class="h3">Habilitats de Desenvolupament</h3>
           </div>
-
+        
           <ol class="timeline-list">
-
+        
             <li class="timeline-item">
-
+        
               <h4 class="h4 timeline-item-title">C#, C++, C, Java</h4>
-
+        
             </li>
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">HTML, CSS, JS, PHP</h4>
-
+        
+              <h4 class="h4 timeline-item-title">HTML, CSS, JS, PHP, Blazor</h4>
+        
             </li>
             <li class="timeline-item">
-
+        
               <h4 class="h4 timeline-item-title">MongoDB, SQL Server, Firebase</h4>
-
+        
             </li>
             <li class="timeline-item">
-
+        
+              <h4 class="h4 timeline-item-title">Jetpack Compose & Kotlin (usant ktor i koin)</h4>
+        
+            </li>
+            <li class="timeline-item">
+        
               <h4 class="h4 timeline-item-title">Flutter & Dart</h4>
-
+        
             </li>
             <li class="timeline-item">
-
+        
               <h4 class="h4 timeline-item-title">Unity & Unreal</h4>
-
+        
             </li>
-
-      
-
-
+        
           </ol>
-
+        
         </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-          <h3 class="h3 testimonials-title">Portafoli</h3>
-          <ul class="testimonials-list has-scrollbar">
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img style="width: 4em;" src="./assets/images/ajedrez.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Projecte d'escacs</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Un projecte per crear una versió digital dels escacs utilitzant Unity i programant en C#. 
-                    L'objectiu principal era recrear fidelment l'experiència dels escacs clàssics mentre s'exploraven
-                    noves tècniques d'implementació que podrien millorar l'eficiència i la comprensió del codi.
-                  </p>
-                  <br>
-                  <p>
-                    Una de les decisions tècniques clau que vaig prendre va ser adoptar una representació del tauler
-                    basada en vectors en comptes d'utilitzar una matriu convencional. Això implicava emmagatzemar les
-                    posicions de les peces en un sol vector, assignant a cada casella del tauler un índex únic. Aquesta
-                    estratègia va simplificar significativament la lògica del joc i va facilitar la implementació de les
-                    regles, alhora que proporcionava una base sòlida per a futures millores.
-                  </p>
-                  <br>
-                  <p>
-                    El projecte abraçava funcionalitats estàndard com el mode multijugador local per a dos jugadors i un mode
-                    d'un sol jugador contra una intel·ligència artificial bàsica. Tot i que l'IA no va arribar a un nivell
-                    avançat, proporcionava una experiència jugable per practicar i millorar habilitats.
-                  </p>
-                </div>
-                
-
-              </div>
+        
+        <section class="timeline">
+        
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="laptop-outline"></ion-icon>
+            </div>
+        
+            <h3 class="h3">Experiència</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">TEG</h4>
+        
+              <span>2023/2024</span>
+        
+              <p class="timeline-text">
+                Programador Junior treballant en frontend i backend.
+              </p>
+        
             </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img style="width: 4em;" src="./assets/images/mobile.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Joc Mòbil</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Vaig decidir crear un joc hiper casual per a dispositius mòbils. Aquest projecte no es va limitar a la programació
-                    i al disseny; va ser una experiència d'aprenentatge completa que va incloure anàlisi de mercat, adaptació de mecàniques
-                    i estratègia de màrqueting.
-                  </p>
-                  <br>
-                  <p>
-                    La mecànica principal del joc va seguir sent deliberadament simple, alineant-se amb la preferència del gènere hiper casual
-                    per un joc fàcil d'entendre. No obstant això, on realment vaig centrar els meus esforços va ser en entendre el panorama
-                    competitiu. Vaig analitzar jocs existents i d'èxit al mercat.
-                  </p>
-                  <br>
-                  <p>
-                    A través d'aquest procés, vaig aprendre a adaptar mecàniques i estètica per satisfer les preferències del meu públic objectiu.
-                    Això va implicar no només implementar una jugabilitat interessant, sinó també assegurar-me que l'estil visual i l'experiència
-                    de l'usuari fossin atractius i accessibles.
-                  </p>
-                  <br>
-                  <p>
-                    A més, vaig endinsar-me en el món de l'estratègia de màrqueting des de les primeres etapes de desenvolupament. Vaig crear un pla
-                    detallat que delinea com promocionar el joc de manera efectiva, considerant aspectes com l'adquisició d'usuaris, la retenció i
-                    la monetització. Això va implicar investigar i entendre plataformes com Google Play Store, aprendre com publicar aplicacions i
-                    integrar AdMob per a anuncis dins del joc.
-                  </p>
-                  
-                </div>
-              
-              </div>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Vàries feines d'estiu</h4>
+        
+              <span></span>
+        
+              <p class="timeline-text">
+                Aquestes feines m'han proporcionat una experiència valuosa en interactuar i col·laborar amb persones diverses, demostrant la meva capacitat per adaptar-me i relacionar-me amb noves persones diàriament.
+              </p>
+        
             </li>
-
-          </ul>
-
+        
+          </ol>
+        
         </section>
-        <!--
-          - finestra modal de testimonials
-        -->
-
+        
+        <section class="timeline">
+        
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+        
+            <h3 class="h3">Educació</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">Universitat de Girona</h4>
+        
+              <span>2021 — 2025</span>
+        
+            </li>
+        
+            <li class="timeline-item">
+        
+              <h4 class="h4 timeline-item-title">First Certificate in English - B2</h4>
+        
+            </li>
+        
+          </ol>
+        
+        </section>
+        
         <div class="modal-container" data-modal-container>
-
           <div class="overlay" data-overlay></div>
-
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-            </div>
-
+        
+            <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img style="display: none;">
+        
             <div class="modal-content">
-
               <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 de juny de 2021</time>
-
               <div data-modal-text>
-                <p>
-                  En Richard va ser contractat per crear una identitat corporativa. Vam estar molt satisfets amb la feina feta. Té una
-                  gran experiència i està molt preocupat per les necessitats del client. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  
-                </p>
+                <!-- El teu contingut aquí -->
               </div>
             </div>
-
           </section>
-
+        </div>
+        
         </div>
 
       </article>
@@ -424,18 +593,18 @@
 
 
   <!--
-    - enllaç personalitzat a js
+    - enlace a script personalizado
   -->
   <script src="./assets/js/script.js"></script>
 
   <!--
-    - enllaç a ionicon
+    - enlace a ionicon
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
-  
+
 </body>
 
 </html>
