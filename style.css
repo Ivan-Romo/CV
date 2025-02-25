@@ -7,7 +7,7 @@
 }
 
 .projects-grid {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
@@ -110,14 +110,22 @@ a{
 }
 
 h3{
-    color:whitesmoke
-}
-
-h3{
     color:whitesmoke !important;
 }
 
 .project-info{
     display: flex;
     flex-direction: column;
+}
+
+.tag {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b1e23;
+    background-color: #f5f6f8;
+    padding: 10px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.1);
 }
