@@ -6,6 +6,12 @@
     grid-template-columns: repeat(2,1fr);
 }
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -87,7 +93,7 @@ a{
     padding-left: 10px;
 }
 
-/* media queres */
+
 @media(max-width:780px){
     .grid-2{
         grid-template-columns: 1fr;
@@ -101,4 +107,17 @@ a{
         padding-left: 1.5rem;
         padding-top: 2rem;
     }
+}
+
+h3{
+    color:whitesmoke
+}
+
+h3{
+    color:whitesmoke !important;
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
 }
