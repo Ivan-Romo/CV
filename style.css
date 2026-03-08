@@ -142,3 +142,10 @@ h3{
 .section-2 p {
     text-align: justify;
 }
+
+.section-1 img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
